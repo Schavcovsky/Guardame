@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cl.guardame.infinitylabs.guardame.LoginActivity"
+    tools:showIn="@layout/activity_login"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/guardame"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="200dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/loginBtn"
+        android:id="@+id/loginBtn"
+        android:background="@drawable/btn_full"
+        android:layout_above="@+id/singupBtn"
+        android:layout_marginBottom="10dp"
+        android:layout_alignLeft="@+id/singupBtn"
+        android:layout_alignStart="@+id/singupBtn"
+        android:layout_alignRight="@+id/singupBtn"
+        android:layout_alignEnd="@+id/singupBtn"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/userTv"
+        android:drawablePadding="10dip"
+        android:background="@drawable/tf"
+        android:drawableLeft="@drawable/mail"
+        android:paddingLeft="20dip"
+        android:paddingRight="30dip"
+        android:paddingTop="30dip"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:scaleGravity="center_vertical|center_horizontal"
+        android:scaleHeight="80%"
+        android:scaleWidth="80%"
+        android:autoText="false"
+        android:hint="@string/userHint"
+        android:layout_above="@+id/pwTv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/pwTv"
+        android:layout_alignEnd="@+id/pwTv"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/pwTv"
+        android:drawablePadding="10dip"
+        android:background="@drawable/tf"
+        android:drawableLeft="@drawable/key"
+        android:paddingLeft="20dip"
+        android:paddingRight="30dip"
+        android:paddingTop="20dip"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:hint="@string/pwHint"
+        android:layout_above="@+id/loginBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/singupBtnM"
+        android:id="@+id/singupBtn"
+        android:background="@drawable/btn_blank"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"/>
+</RelativeLayout>

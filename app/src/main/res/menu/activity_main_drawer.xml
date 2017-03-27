@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_note"-->
+            <!--android:icon="@drawable/add_note"-->
+            <!--android:title="Escribir Nota" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_collections"-->
+            <!--android:icon="@drawable/collections"-->
+            <!--android:title="Colecciones" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_configuration"-->
+            <!--android:icon="@drawable/configuration"-->
+            <!--android:title="Configuración" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_about"-->
+            <!--android:icon="@drawable/info"-->
+            <!--android:title="Acerca de" />-->
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>

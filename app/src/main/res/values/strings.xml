@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Guardame</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Hints-->
+    <string name="userHint">Correo eléctronico</string>
+    <string name="pwHint">Contraseña</string>
+    <string name="nameHint">Nombre</string>
+    <string name="pwCHint">Confirma contraseña</string>
+
+    <string name="titleHint">Título para la nota</string>
+    <string name="contentHint">Escribe acá el contenido de la nota</string>
+
+    <!--Buttons-->
+    <string name="singupBtnM">¿No tienes cuenta?</string>
+    <string name="singupBtn">Regístrame</string>
+    <string name="backBtn">Volver</string>
+    <string name="forgotPwBtn">Olvidé mi contraseña</string>
+    <string name="title_activity_sing_up">SingUpActivity</string>
+    <string name="logoutBtn">Cerrar sesión</string>
+    <string name="addnoteBtn">Crear Nota</string>
+    <string name="modifynoteBtn">Modificar</string>
+    <string name="guardameBtn">Guárdame</string>
+    <string name="loginBtn">Iniciar sesión</string>
+
+    <!--CheckBox-->
+    <string name="tycCb">Estoy de acuerdo con los Términos y Condiciones.</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!--TextView-->
+    <string name="WelcomeTv">Bienvenido</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="noteTitle">Título nota</string>
+    <string name="noteDate">1993-05-06 10:12:43</string>
+    <string name="noteContent">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</string>
+    <string name="usernameTv">Guárdame</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="title_activity_modify_note">ModifyNoteActivity</string>
+
+
+</resources>
